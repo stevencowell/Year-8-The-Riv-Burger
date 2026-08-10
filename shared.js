@@ -11,9 +11,9 @@
   const homeProgress = document.querySelector('[data-home-progress]');
   if (homeProgress) {
     const responses = Object.keys(localStorage).filter(k => /^rivburger:m\d+-/.test(k) && (localStorage.getItem(k)||'').trim().length >= 20).length;
-    const checked = Array.from({length:10},(_,i) => localStorage.getItem(`rivburger:module:${i+1}:check`)).filter(Boolean).length;
+    const checked = Object.keys(localStorage).filter(k => k.startsWith('rivburger:check:')).filter(k => { try { return JSON.parse(localStorage.getItem(k) || '{}').correct; } catch (_) { return false; } }).length;
     const activities = new Set(Object.keys(localStorage).filter(k => k.startsWith('rivburger:activity:') && (localStorage.getItem(k)||'').trim().length >= 20).map(k => k.match(/:a(\d+)-/)?.[1]).filter(Boolean)).size;
-    const pct = Math.min(100, Math.round(((responses + checked + activities) / 40) * 100));
+    const pct = Math.min(100, Math.round(((responses + checked + activities) / 340) * 100));
     homeProgress.textContent = `${pct}%`;
     document.querySelector('[data-home-progress-bar]').style.width = `${pct}%`;
   }

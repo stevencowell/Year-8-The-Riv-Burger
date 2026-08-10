@@ -2,7 +2,7 @@
 
 ## Student promise
 
-Students can move from the design situation to a planned, safely produced and evidence-based signature burger without relying on unexplained worksheets. Every module contains concise theory, five knowledge-check questions with section-specific feedback, two autosaving written-evidence prompts, a purposeful teaching visual and a direct link to its matching project activity.
+Students can move from the design situation to a planned, safely produced and evidence-based signature burger without relying on unexplained worksheets. Every named theory section contains concise source-bound teaching, one validated teaching video, ten knowledge-check questions with precise feedback, and an autosaving written response with a Footstool-style guide. Purposeful colour photographs and diagrams are distributed through the theory, and each module links to its matching project activity.
 
 ## Ten-module map
 
@@ -19,7 +19,7 @@ Students can move from the design situation to a planned, safely produced and ev
 
 ## Evidence and submission boundary
 
-The folio gathers the twenty module responses and summaries of the ten source-grounded project activities. It supports editing, print and JSON backup/restore. Storage is browser-local. Formal dates and submission arrangements remain teacher-controlled.
+The folio gathers the thirty section responses and summaries of the ten source-grounded project activities. It supports editing, print and JSON backup/restore. Storage is browser-local. Formal dates and submission arrangements remain teacher-controlled.
 
 ## Family-site decisions
 
@@ -29,3 +29,5 @@ The folio gathers the twenty module responses and summaries of the ten source-gr
 - A dedicated Activities destination turns the useful teacher-posted worksheets into ten web-native, autosaving tasks with precise theory-help links.
 - Home-page progress combines knowledge checks, module writing and project activity starts without presenting device-local practice as formal submission.
 - Comparison with the Footstool family benchmark was feature-based: visual support, activity flow, progress, print and folio parity were adopted; timber-specific destinations and content were not copied.
+- The video layer uses one section-specific, student-initiated privacy-enhanced YouTube embed per theory section. Each card names a teaching purpose and a concrete viewing focus, and retains a visible YouTube fallback link.
+- Ten teacher chalk-and-talk PowerPoint decks accompany the modules. Each deck contains retrieval, three theory explanations, a learning check, the shared Read → Select → Explain → Check response model, an exit ticket and source notes.
