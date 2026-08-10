@@ -40,4 +40,19 @@
     }
   });
   document.querySelector('[data-print]').addEventListener('click', () => window.print());
+
+  const activityTitles = ['Brief and criteria','Safety scenarios','Practical readiness','Burger deconstruction','Ingredient journey','Four design concepts','Herb and garden','Production planning','Production evidence','Evaluation'];
+  const escapeHtml = value => value.replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+  const summary = document.querySelector('[data-activity-summary]');
+  summary.innerHTML = activityTitles.map((title, i) => {
+    const prefix = `rivburger:activity:a${i+1}-`;
+    const keys = Object.keys(localStorage).filter(k => k.startsWith(prefix)).sort();
+    const responses = keys.map(key => ({
+      label: localStorage.getItem(`rivburger:activity-meta:${key.slice('rivburger:activity:'.length)}`) || 'Written response',
+      value: (localStorage.getItem(key) || '').trim()
+    })).filter(item => item.value);
+    const evidence = responses.map(item => `<div class="activity-evidence"><strong>${escapeHtml(item.label)}</strong><p>${escapeHtml(item.value).replace(/\n/g,'<br>')}</p></div>`).join('');
+    return `<article class="card activity-summary-card"><div class="module-card"><div class="number">${i+1}</div><div><h3>${title}</h3><p>${responses.length ? `${responses.length} response${responses.length===1?'':'s'} saved` : 'Not started on this device'}</p><a href="activities.html#activity-${i+1}">Open activity →</a></div></div>${evidence}</article>`;
+  }).join('');
+  document.querySelector('[data-print-activities-summary]').addEventListener('click', () => window.print());
 })();
