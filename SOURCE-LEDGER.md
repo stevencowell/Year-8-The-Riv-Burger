@@ -45,3 +45,9 @@ The visual prompts specified realistic Australian school settings, no people, no
 - Each selected video passed YouTube metadata, privacy-enhanced embed-route and thumbnail checks on 10 August 2026.
 - Videos open only after student action through `youtube-nocookie.com`; every card includes a visible `Open in YouTube` fallback.
 - Third-party video content remains the responsibility of its publisher and should be rechecked before a future major release because availability can change.
+
+## Module presentations
+
+- Ten original eight-slide chalk-and-talk PowerPoint presentations are stored in `resources/presentations/`.
+- Each module page links its matching deck before the first theory section so students can use the presentation without waiting for teacher delivery.
+- The decks restate the source-bound module theory, learning checks and written-response process; they do not add assessment dates, marks, submission directions or teacher-only answer keys.

@@ -31,3 +31,4 @@ The folio gathers the thirty section responses and summaries of the ten source-g
 - Comparison with the Footstool family benchmark was feature-based: visual support, activity flow, progress, print and folio parity were adopted; timber-specific destinations and content were not copied.
 - The video layer uses one section-specific, student-initiated privacy-enhanced YouTube embed per theory section. Each card names a teaching purpose and a concrete viewing focus, and retains a visible YouTube fallback link.
 - Ten teacher chalk-and-talk PowerPoint decks accompany the modules. Each deck contains retrieval, three theory explanations, a learning check, the shared Read → Select → Explain → Check response model, an exit ticket and source notes.
+- Each module page places its matching eight-slide PowerPoint before the first theory section so students can download and use the teaching sequence independently.
