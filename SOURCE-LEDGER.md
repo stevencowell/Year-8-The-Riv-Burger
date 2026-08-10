@@ -51,3 +51,12 @@ The visual prompts specified realistic Australian school settings, no people, no
 - Ten original eight-slide chalk-and-talk PowerPoint presentations are stored in `resources/presentations/`.
 - Each module page links its matching deck before the first theory section so students can use the presentation without waiting for teacher delivery.
 - The decks restate the source-bound module theory, learning checks and written-response process; they do not add assessment dates, marks, submission directions or teacher-only answer keys.
+
+## Teacher program and scope-and-sequence
+
+- `teacher-resources.html` provides a public teacher destination without private Classroom identifiers, student information, answer keys or staff-only material.
+- `resources/teacher/Riv-Burger-10-Week-Teaching-Program-and-Scope-Sequence-v1.0.docx` is the editable program.
+- `resources/teacher/Riv-Burger-10-Week-Teaching-Program-and-Scope-Sequence-v1.0.pdf` is the matching 17-page landscape A4 review and print version.
+- Stable program hashes: Word `35D625AAF37A98A0FFBA6CA6004F06E5A034F525344DB4FE72EA09295184B99A`; PDF `72935FD92434CD07FBB70F26C45470A83F2A05087E4E39B841719C0C91EF00B9`.
+- The program maps the ten published modules to the official Technology 7–8 outcomes and Food and agricultural practices content. The sequence is identified as a local teaching decision, not a syllabus-prescribed order.
+- Lesson allocation, current assessment status, practical dates, ingredients, equipment, dietary and allergen requirements, risk controls, supervision, class adjustments and submission arrangements remain `Teacher to confirm`.

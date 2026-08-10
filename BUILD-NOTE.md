@@ -32,3 +32,5 @@ The folio gathers the thirty section responses and summaries of the ten source-g
 - The video layer uses one section-specific, student-initiated privacy-enhanced YouTube embed per theory section. Each card names a teaching purpose and a concrete viewing focus, and retains a visible YouTube fallback link.
 - Ten teacher chalk-and-talk PowerPoint decks accompany the modules. Each deck contains retrieval, three theory explanations, a learning check, the shared Read → Select → Explain → Check response model, an exit ticket and source notes.
 - Each module page places its matching eight-slide PowerPoint before the first theory section so students can download and use the teaching sequence independently.
+- A public Teacher resources page provides the source-bound ten-week program in editable Word and print-ready PDF formats, plus an at-a-glance scope-and-sequence.
+- The program maps the published course to the current NSW Technology 7–8 Syllabus while preserving local decisions, practical controls and current arrangements as `Teacher to confirm`.
