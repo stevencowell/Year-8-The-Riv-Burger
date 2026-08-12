@@ -64,11 +64,15 @@ The visual prompts specified realistic Australian school settings, no people, no
 ## Printable student workbook
 
 - `teacher-resources.html` links a complete paper learning pathway for classes that cannot or do not use the interactive site.
-- `resources/teacher/Riv-Burger-Student-Workbook-v1.1.docx` is the current editable 113-page A4 workbook.
-- `resources/teacher/Riv-Burger-Student-Workbook-v1.1.pdf` is the matching fixed print-ready edition.
-- Coverage: 10 modules, 30 theory sections, 120 representative knowledge checks, 30 guided written responses, 20 course-specific Busy Work breaks, 10 project activities, 21 colour visual placements, knowledge-check and Busy Work answer keys, and a final evidence check.
+- `resources/teacher/Riv-Burger-Student-Workbook-Compact-v2.0.docx` is the recommended editable 50-page A4 workbook.
+- `resources/teacher/Riv-Burger-Student-Workbook-Compact-v2.0.pdf` is the matching fixed print-ready compact edition.
+- Compact coverage: 10 modules, all 30 theory sections, 60 representative knowledge checks, 10 combined guided responses, all 20 course-specific Busy Work breaks, 10 project-evidence pages, 21 colour visual placements, complete knowledge-check and Busy Work answer keys, and a final evidence check.
+- Compact stable hashes: Word `C7400FB5B89B21675C21C9A578A6DEB634C743C94602F61BCDA4701FD267A599`; PDF `67AE0F3C695138D7A09189CC827F4E82FA86A3834923157DAF2C7AF8C29739F0`.
+- The compact edition reduces printing by removing repeated module openers, duplicated response instructions, separate writing-only pages and surplus answer-key space before reducing question volume.
+- `resources/teacher/Riv-Burger-Student-Workbook-v1.1.docx` and `.pdf` remain linked as the retained 113-page extended edition.
+- Extended coverage: 10 modules, 30 theory sections, 120 representative knowledge checks, 30 guided written responses, 20 course-specific Busy Work breaks, 10 project activities, 21 colour visual placements, knowledge-check and Busy Work answer keys, and a final evidence check.
 - Busy Work coverage: two activities per module, including five find-a-words, four crosswords, matching, sequencing, sorting and evidence or design decisions. Each activity routes students to a precise theory section.
-- Stable workbook hashes: Word `8D4CC140F52995E2CBAC9FC7D7FDF58F2BB4CD44013FADE8C9BF0E970C49005A`; PDF `3CC3FDAD95966493C384EF2359BC0795ABAC33849BD91C1A903192F7A283AE9F`.
-- Version 1.0 remains retained as the superseded 92-page edition; Teacher Resources links version 1.1.
-- The website retains all 300 interactive section checks; the print edition selects four representative questions per section to preserve breadth without unnecessary printing.
+- Extended stable hashes: Word `8D4CC140F52995E2CBAC9FC7D7FDF58F2BB4CD44013FADE8C9BF0E970C49005A`; PDF `3CC3FDAD95966493C384EF2359BC0795ABAC33849BD91C1A903192F7A283AE9F`.
+- Version 1.0 remains retained as the superseded 92-page edition; Teacher Resources links both compact version 2.0 and extended version 1.1.
+- The website retains all 300 interactive section checks; the compact edition selects two representative questions per section and the extended edition selects four.
 - The workbook uses the same source, safety, privacy and `Teacher to confirm` boundaries as the published course. It does not authorise unsupervised or home practical work.
