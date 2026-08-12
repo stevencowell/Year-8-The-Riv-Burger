@@ -64,9 +64,11 @@ The visual prompts specified realistic Australian school settings, no people, no
 ## Printable student workbook
 
 - `teacher-resources.html` links a complete paper learning pathway for classes that cannot or do not use the interactive site.
-- `resources/teacher/Riv-Burger-Student-Workbook-v1.0.docx` is the editable 92-page A4 workbook.
-- `resources/teacher/Riv-Burger-Student-Workbook-v1.0.pdf` is the matching fixed print-ready edition.
-- Coverage: 10 modules, 30 theory sections, 120 representative knowledge checks, 30 guided written responses, 10 project activities, 21 colour visual placements, a complete answer key and final evidence check.
-- Stable workbook hashes: Word `BAFA5A0B65F7CC18C7A2900029E93D1B68B532FF026E94CCC14EAC29B29A5E75`; PDF `6B902FE5D79FBBF5E3B53479BBEB1D6A1021CBEFA1001BD011DB467DA705E0DD`.
+- `resources/teacher/Riv-Burger-Student-Workbook-v1.1.docx` is the current editable 113-page A4 workbook.
+- `resources/teacher/Riv-Burger-Student-Workbook-v1.1.pdf` is the matching fixed print-ready edition.
+- Coverage: 10 modules, 30 theory sections, 120 representative knowledge checks, 30 guided written responses, 20 course-specific Busy Work breaks, 10 project activities, 21 colour visual placements, knowledge-check and Busy Work answer keys, and a final evidence check.
+- Busy Work coverage: two activities per module, including five find-a-words, four crosswords, matching, sequencing, sorting and evidence or design decisions. Each activity routes students to a precise theory section.
+- Stable workbook hashes: Word `8D4CC140F52995E2CBAC9FC7D7FDF58F2BB4CD44013FADE8C9BF0E970C49005A`; PDF `3CC3FDAD95966493C384EF2359BC0795ABAC33849BD91C1A903192F7A283AE9F`.
+- Version 1.0 remains retained as the superseded 92-page edition; Teacher Resources links version 1.1.
 - The website retains all 300 interactive section checks; the print edition selects four representative questions per section to preserve breadth without unnecessary printing.
 - The workbook uses the same source, safety, privacy and `Teacher to confirm` boundaries as the published course. It does not authorise unsupervised or home practical work.
