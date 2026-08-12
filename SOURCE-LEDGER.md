@@ -60,3 +60,13 @@ The visual prompts specified realistic Australian school settings, no people, no
 - Stable program hashes: Word `35D625AAF37A98A0FFBA6CA6004F06E5A034F525344DB4FE72EA09295184B99A`; PDF `72935FD92434CD07FBB70F26C45470A83F2A05087E4E39B841719C0C91EF00B9`.
 - The program maps the ten published modules to the official Technology 7–8 outcomes and Food and agricultural practices content. The sequence is identified as a local teaching decision, not a syllabus-prescribed order.
 - Lesson allocation, current assessment status, practical dates, ingredients, equipment, dietary and allergen requirements, risk controls, supervision, class adjustments and submission arrangements remain `Teacher to confirm`.
+
+## Printable student workbook
+
+- `teacher-resources.html` links a complete paper learning pathway for classes that cannot or do not use the interactive site.
+- `resources/teacher/Riv-Burger-Student-Workbook-v1.0.docx` is the editable 92-page A4 workbook.
+- `resources/teacher/Riv-Burger-Student-Workbook-v1.0.pdf` is the matching fixed print-ready edition.
+- Coverage: 10 modules, 30 theory sections, 120 representative knowledge checks, 30 guided written responses, 10 project activities, 21 colour visual placements, a complete answer key and final evidence check.
+- Stable workbook hashes: Word `BAFA5A0B65F7CC18C7A2900029E93D1B68B532FF026E94CCC14EAC29B29A5E75`; PDF `6B902FE5D79FBBF5E3B53479BBEB1D6A1021CBEFA1001BD011DB467DA705E0DD`.
+- The website retains all 300 interactive section checks; the print edition selects four representative questions per section to preserve breadth without unnecessary printing.
+- The workbook uses the same source, safety, privacy and `Teacher to confirm` boundaries as the published course. It does not authorise unsupervised or home practical work.
