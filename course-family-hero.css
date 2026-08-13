@@ -27,6 +27,16 @@
   width: calc(100% - 32px) !important;
 }
 
+.course-family-hero.hero-no-media .course-family-hero-inner {
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+.save-note,
+#modules ~ .tomato-band,
+#modules ~ .tomato-band ~ section:not(.course-authority-note) {
+  display: none !important;
+}
+
 .course-family-hero .hero-copy {
   max-width: 680px !important;
   min-width: 0;
