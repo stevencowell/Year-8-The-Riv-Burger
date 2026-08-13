@@ -32,7 +32,7 @@ button:hover, .button:hover { background: var(--leaf-dark); color: white; }
 .site-nav { margin-left: auto; display: flex; align-items: center; gap: .3rem; flex-wrap: wrap; }
 .site-nav a { padding: .5rem .7rem; border-radius: 10px; text-decoration: none; font-weight: 700; }
 .site-nav a[aria-current="page"], .site-nav a:hover { background: #e8efe4; }
-.hero { min-height: 560px; display: grid; place-items: center; background: linear-gradient(90deg, rgba(255,250,240,.99) 0%, rgba(255,250,240,.94) 42%, rgba(255,250,240,.12) 68%), url('assets/riv-burger-hero.png') center/cover; }
+.hero { min-height: 560px; display: grid; place-items: center; background-color: #fffaf0; background-image: linear-gradient(90deg, rgba(255,250,240,.99) 0%, rgba(255,250,240,.94) 42%, rgba(255,250,240,.12) 68%), url('assets/riv-burger-hero.png'); background-position: center, right center; background-repeat: no-repeat; background-size: cover, 86% auto; }
 .hero-inner { width: min(1180px, 100%); padding: 5rem 1rem; }
 .hero-copy { max-width: 620px; }
 .eyebrow { margin: 0 0 .5rem; color: var(--tomato); font-size: .9rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
