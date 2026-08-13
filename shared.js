@@ -7,6 +7,14 @@
       toggle.setAttribute('aria-expanded', String(open));
     });
   }
+  if (nav && ![...nav.querySelectorAll('a')].some(link => link.textContent.trim() === 'Busy Work')) {
+    const busyWork = document.createElement('a');
+    busyWork.href = location.pathname.includes('/modules/') ? '../busy-work.html' : 'busy-work.html';
+    busyWork.textContent = 'Busy Work';
+    busyWork.dataset.busyWorkLink = '';
+    const activities = [...nav.querySelectorAll('a')].find(link => link.textContent.trim() === 'Activities');
+    if (activities) activities.after(busyWork); else nav.append(busyWork);
+  }
   document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
   const homeProgress = document.querySelector('[data-home-progress]');
   if (homeProgress) {
