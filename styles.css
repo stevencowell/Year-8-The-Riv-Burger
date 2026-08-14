@@ -25,14 +25,14 @@ button:hover, .button:hover { background: var(--leaf-dark); color: white; }
 .skip-link { position: absolute; left: -10000px; top: 0; z-index: 20; padding: .8rem; background: white; }
 .skip-link:focus { left: .5rem; top: .5rem; }
 .site-header { background: rgba(255,250,240,.96); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; backdrop-filter: blur(10px); }
-.nav-wrap { max-width: 1180px; margin: auto; padding: .7rem 1rem; display: flex; align-items: center; gap: 1rem; }
+.nav-wrap { max-width: 1380px; min-height: 82px; margin: auto; padding: .75rem 1.25rem; display: flex; align-items: center; gap: 1rem; }
 .brand { display: flex; align-items: center; gap: .65rem; text-decoration: none; font-weight: 900; color: var(--leaf-dark); white-space: nowrap; }
-.brand-mark { width: 2.2rem; height: 2.2rem; display: grid; place-items: center; border-radius: 50%; background: var(--mustard); font-size: 1.2rem; }
+.brand-mark { width: 2.5rem; height: 2.5rem; display: grid; place-items: center; flex: 0 0 auto; border-radius: 50%; background: var(--mustard); font-size: 1.2rem; }
 .nav-toggle { display: none; margin-left: auto; padding: .55rem .8rem; }
 .site-nav { margin-left: auto; display: flex; align-items: center; gap: .3rem; flex-wrap: wrap; }
-.site-nav a { padding: .5rem .7rem; border-radius: 10px; text-decoration: none; font-weight: 700; }
+.site-nav a { padding: .62rem .58rem; border-radius: 10px; text-decoration: none; font-size: .92rem; font-weight: 750; white-space: nowrap; }
 .site-nav a[aria-current="page"], .site-nav a:hover { background: #e8efe4; }
-.hero { min-height: 560px; display: grid; place-items: center; background-color: #fffaf0; background-image: linear-gradient(90deg, rgba(255,250,240,.99) 0%, rgba(255,250,240,.94) 42%, rgba(255,250,240,.12) 68%), url('assets/riv-burger-hero.png'); background-position: center, right center; background-repeat: no-repeat; background-size: cover, 86% auto; }
+.hero { min-height: 560px; display: grid; place-items: center; background: linear-gradient(135deg, #fffaf0 0%, #f8efda 58%, #e8efe1 100%); }
 .hero-inner { width: min(1180px, 100%); padding: 5rem 1rem; }
 .hero-copy { max-width: 620px; }
 .eyebrow { margin: 0 0 .5rem; color: var(--tomato); font-size: .9rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
@@ -177,7 +177,7 @@ textarea:focus, input:focus { outline: 3px solid rgba(225,167,44,.42); border-co
   .module-presentation { grid-template-columns: 1fr; }
   .presentation-download { width: 100%; white-space: normal; }
   .video-learning { grid-template-columns: 1fr; }
-  .hero { min-height: 640px; align-items: end; background: linear-gradient(0deg, rgba(255,250,240,1) 0%, rgba(255,250,240,.92) 44%, rgba(255,250,240,.1) 75%), url('assets/riv-burger-hero.png') 63% center/cover; }
+  .hero { min-height: 0; align-items: stretch; background: linear-gradient(180deg, #fffaf0, #f5ead2); }
   .hero-inner { padding: 13rem 1rem 3rem; }
 }
 @media (max-width: 460px) {
