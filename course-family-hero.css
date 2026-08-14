@@ -32,8 +32,9 @@
 }
 
 .save-note,
+#modules ~ .course-authority-note,
 #modules ~ .tomato-band,
-#modules ~ .tomato-band ~ section:not(.course-authority-note) {
+#modules ~ .tomato-band ~ section {
   display: none !important;
 }
 
@@ -181,6 +182,10 @@
   padding: 0 !important;
   position: static !important;
   width: 100% !important;
+}
+
+.course-family-hero .hero-image img {
+  object-position: 66% center !important;
 }
 
 .course-family-hero .hero-image-contain img {
