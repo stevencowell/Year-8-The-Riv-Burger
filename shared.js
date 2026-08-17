@@ -1,16 +1,50 @@
 (() => {
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.site-nav');
+  const script = document.currentScript;
+  if (nav) {
+    [...nav.querySelectorAll('a')].forEach(link => {
+      if (/^Busy Work(?:sheets)?$/i.test(link.textContent.trim())) link.textContent = 'Puzzles';
+    });
+    if (![...nav.querySelectorAll('a')].some(link => link.textContent.trim() === 'Main Menu')) {
+      const mainMenu = document.createElement('a');
+      mainMenu.href = 'https://stevencowell.github.io/Main-Page/';
+      mainMenu.textContent = 'Main Menu';
+      mainMenu.dataset.mainMenuLink = '';
+      nav.append(mainMenu);
+    }
+    if (!document.querySelector('link[data-course-family-nav-styles]')) {
+      const stylesheet = document.createElement('link');
+      stylesheet.rel = 'stylesheet';
+      stylesheet.href = new URL('course-family-navigation.css?v=20260818', script.src).href;
+      stylesheet.dataset.courseFamilyNavStyles = '';
+      document.head.append(stylesheet);
+    }
+    const header = nav.closest('.site-header');
+    const inner = header && header.querySelector('.nav-wrap');
+    const brand = header && header.querySelector('.brand');
+    const mark = brand && brand.querySelector('.brand-mark');
+    if (header && inner && brand) {
+      header.className = 'course-family-nav screen-only';
+      inner.className = 'course-family-nav__inner';
+      brand.className = 'course-family-nav__brand';
+      if (mark) mark.className = 'course-family-nav__mark';
+      nav.className = 'course-family-nav__links';
+      nav.setAttribute('aria-label', 'Course navigation');
+      toggle?.remove();
+      document.documentElement.classList.add('has-course-family-nav');
+    }
+  }
   if (toggle && nav) {
     toggle.addEventListener('click', () => {
       const open = nav.classList.toggle('open');
       toggle.setAttribute('aria-expanded', String(open));
     });
   }
-  if (nav && ![...nav.querySelectorAll('a')].some(link => link.textContent.trim() === 'Busy Work')) {
+  if (nav && ![...nav.querySelectorAll('a')].some(link => link.textContent.trim() === 'Puzzles')) {
     const busyWork = document.createElement('a');
     busyWork.href = location.pathname.includes('/modules/') ? '../busy-work.html' : 'busy-work.html';
-    busyWork.textContent = 'Busy Work';
+    busyWork.textContent = 'Puzzles';
     busyWork.dataset.busyWorkLink = '';
     const activities = [...nav.querySelectorAll('a')].find(link => link.textContent.trim() === 'Activities');
     if (activities) activities.after(busyWork); else nav.append(busyWork);
