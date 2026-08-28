@@ -55,11 +55,15 @@ The visual prompts specified realistic Australian school settings, no people, no
 ## Teacher program and scope-and-sequence
 
 - `teacher-resources.html` provides a public teacher destination without private Classroom identifiers, student information, answer keys or staff-only material.
-- `resources/teacher/Riv-Burger-10-Week-Teaching-Program-and-Scope-Sequence-v1.0.docx` is the editable program.
-- `resources/teacher/Riv-Burger-10-Week-Teaching-Program-and-Scope-Sequence-v1.0.pdf` is the matching 17-page landscape A4 review and print version.
-- Stable program hashes: Word `35D625AAF37A98A0FFBA6CA6004F06E5A034F525344DB4FE72EA09295184B99A`; PDF `72935FD92434CD07FBB70F26C45470A83F2A05087E4E39B841719C0C91EF00B9`.
+- `resources/teacher/Riv-Burger-25-Period-Teaching-Program-v2.3-Network-Benchmark.docx` is the editable four-page A4 landscape syllabus-aligned program; Word SHA-256 `CD4F9EB7F57559C3F15A756E09AB219BC2A6E0877FDE6B0FF813B169A0B80B7F`.
+- `resources/teacher/Riv-Burger-25-Period-Teaching-Program-v2.3-Network-Benchmark.pdf` is the matching fixed-layout review and print version; PDF SHA-256 `5490E8D0FFA4BC68BE0BECFF61C251E5EFDAC5F70572811E56E797902144612F`.
+- `resources/teacher/Riv-Burger-25-Period-Alignment-Manifest-v2.3.json` is the schema 1.1 crosswalk for all 25 periods, 30 named theory sections, 300 checks, 30 guided responses and 17 teacher-facing lesson links; manifest SHA-256 `F301E8D7E610F19E0E656DF998AB17A47058B3161C27A429F027B050A1C3DAEB`.
+- The teaching copy uses true 10 pt tables and plain-English section names. Outcome codes sit directly beside the syllabus content they support; exact website section IDs and source records remain in the alignment manifest.
+- `Site/theory` and `Project/folio` labels link to the relevant theory section, project activity or whole-folio destination in the site, while `Practical` remains unlinked because its activity and controls require local teacher approval.
+- The final teaching-table column is labelled `What the teacher checks`; every period uses a direct `Check` or `Observe` action and names the evidence, decision or behaviour the teacher reviews.
 - The program maps the ten published modules to the official Technology 7–8 outcomes and Food and agricultural practices content. The sequence is identified as a local teaching decision, not a syllabus-prescribed order.
 - Lesson allocation, current assessment status, practical dates, ingredients, equipment, dietary and allergen requirements, risk controls, supervision, class adjustments and submission arrangements remain `Teacher to confirm`.
+- The earlier 17-page v1.0, compact v1.6 and benchmark versions v2.0-v2.2 remain retained as superseded records; Teacher Resources links v2.3.
 
 ## Printable student workbook
 

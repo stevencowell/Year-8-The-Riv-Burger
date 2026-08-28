@@ -143,6 +143,9 @@ textarea:focus, input:focus { outline: 3px solid rgba(225,167,44,.42); border-co
 .program-table th, .program-table td { padding: .8rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
 .program-table th { background: var(--leaf-dark); color: white; }
 .program-table tbody tr:nth-child(even) { background: #f3f6f0; }
+.program-table td:nth-child(2) > a { color: var(--leaf-dark); font-weight: 700; text-underline-offset: .18em; }
+.program-table td:nth-child(2) > a:hover, .program-table td:nth-child(2) > a:focus-visible { color: var(--tomato); }
+.outcome-codes { display: block; margin-top: .3rem; color: var(--leaf-dark); font-size: .92em; font-weight: 700; }
 .footer { background: var(--leaf-dark); color: #eaf2e6; padding: 3rem 0; }
 .footer a { color: white; }
 .footer-grid { display: flex; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
